@@ -10,6 +10,7 @@ module.exports = {
   rules: {
     // https://github.com/benmosher/eslint-plugin-import/issues/1446
     'import/named': 'off',
+    'no-negated-condition': 'off',
   },
   settings: {'import/resolver': 'node'},
   overrides: [
