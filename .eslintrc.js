@@ -10,6 +10,8 @@ module.exports = {
   rules: {
     // https://github.com/benmosher/eslint-plugin-import/issues/1446
     'import/named': 'off',
+    'no-octal-escape': 'off',
+    'object-curly-spacing': 'error',
   },
   settings: {'import/resolver': 'node'},
   overrides: [
