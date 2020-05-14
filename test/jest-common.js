@@ -2,6 +2,7 @@ const path = require('path')
 
 module.exports = {
   rootDir: path.join(__dirname, '..'),
+  testPathIgnorePatterns: ['../src/solution'],
   moduleDirectories: [
     'node_modules',
     path.join(__dirname, '../src'),

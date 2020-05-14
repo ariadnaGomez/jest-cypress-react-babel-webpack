@@ -15,6 +15,7 @@ module.exports = {
       lines: 100,
     },
   },
+  testPathIgnorePatterns: ['../src/solution'],
   projects: [
     './test/jest.lint.js',
     './test/jest.client.js',
