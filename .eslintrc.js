@@ -12,6 +12,8 @@ module.exports = {
     'import/named': 'off',
     'no-octal-escape': 'off',
     'object-curly-spacing': 'off',
+    'no-shadow': 'off',
+    'no-console': 'off',
   },
   settings: { 'import/resolver': 'node' },
   overrides: [
