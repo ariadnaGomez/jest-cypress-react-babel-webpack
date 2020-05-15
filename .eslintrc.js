@@ -11,13 +11,15 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/issues/1446
     'import/named': 'off',
     'no-octal-escape': 'off',
-    'object-curly-spacing': 'error',
+    'object-curly-spacing': 'off',
+    'no-shadow': 'off',
+    'no-console': 'off',
   },
-  settings: {'import/resolver': 'node'},
+  settings: { 'import/resolver': 'node' },
   overrides: [
     {
       files: ['**/src/**'],
-      settings: {'import/resolver': 'webpack'},
+      settings: { 'import/resolver': 'webpack' },
     },
     {
       files: ['**/__tests__/**'],

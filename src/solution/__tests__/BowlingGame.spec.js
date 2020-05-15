@@ -1,4 +1,4 @@
-import {BowlingGame} from 'BowlingGame'
+import { BowlingGame } from '../BowlingGame'
 
 describe('Bowling game', () => {
   let game
