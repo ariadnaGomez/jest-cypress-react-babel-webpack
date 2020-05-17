@@ -13,4 +13,5 @@ module.exports = {
     '\\.css$': require.resolve('./style-mock.js'),
   },
   watchPlugins: ['jest-watch-select-projects'],
+  testPathIgnorePatterns: [path.join(__dirname, '../src/solution')],
 }

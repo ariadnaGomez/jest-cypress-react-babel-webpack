@@ -3,4 +3,5 @@ module.exports = {
   displayName: 'server',
   testEnvironment: 'jest-environment-node',
   testMatch: ['**/__server_tests__/**/*.js'],
+  // testPathIgnorePatterns: ['<rootDir>/src/solution/**'],
 }
